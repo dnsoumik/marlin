@@ -13,8 +13,8 @@ sys.path.append('./utils')
 from bson.objectid import ObjectId
 
 SECRETS = [
-    'IS-*HGJHFKJL^%*&^(&%T&I^RU^%EI^%^*&(*^*%%*^(^&O^*(*P(UYUFHGJL^KKJGFHRTO&^*&YUTYII',
-    'IS-%*^&*YUTIFUKGLH(&^%(&^GTLO*&^%$^%RI^%RO*^*O&YP&*^(^&*(&*^(&*JJKJuBKMLFGHJ**UJH',
+    'IS-*HGJHFKJL^%**&^%*&I^YUGKUTGIUKYGTKIYHRTO&^*&YUTYII',
+    'IS-%*^&*YOIUY(&*^(&*9867986798679&*YO&*^BKMLFGHJ**UJH',
 ]
 OPTIONS = {
     'verify_signature': True,

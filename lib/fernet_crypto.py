@@ -15,9 +15,9 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from util.log_util import Log
 
 CODES = [
-    b'ISO-KJHGIasdsadsa87^%&I^YUVGKLU&^&*UIYUYFTYF&UTY&&)*T&T',
-    b'ISO-@%$#4ert0^&*O&LYHIU:OIH(O^&*(&*6ti87767997^%$#$*T&T',
-    b'ISO-**I&(^&**O&GILUGHO*&TIO&*TGLI>UGLIUOUIT*###^%$#*T&T',
+    b'ISO-KJHGIa*&^%KIYUGIU&^%&(%^*&^%*&^%*&^%T&YUKUTY&&)*T&T',
+    b'ISO-@%$#4ert(&^(&*^(&*^&*^59856798679867987697^%$#$*T&T',
+    b'ISO-**I&(^(&^(&*Y^(78yt98679867y98769867987669897$#*T&T',
 ]
 
 # Monday, July 15, 2019 15:34:17

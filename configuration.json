@@ -1,9 +1,9 @@
 {
-    "name": "MTIME",
+    "name": "Marlin",
     "server": "DEV",
-    "version": "2.000.000",
-    "projectCode": 2120,
-    "url": "https://ether.xlayer.in",
+    "version": "0.00.01",
+    "projectCode": 5166,
+    "url": "https://marlinstack.com",
     "password": null,
     "uploads": "./../../uploads/",
     "uploadsPath": "/uploads/",
@@ -13,14 +13,14 @@
         {
             "api": "web",
             "host": "127.0.0.1",
-            "port": 3122
+            "port": 5166
         }
     ],
     "database": [
         {
             "name": "MongoDB",
             "code": 0,
-            "key": "marlin",
+            "key": "MarlinBase",
             "host": "127.0.0.1",
             "port": 27017,
             "table": [
@@ -67,14 +67,6 @@
                 {
                     "name": "signedSession",
                     "code": 10
-                },
-                {
-                    "name": "form",
-                    "code": 11
-                },
-                {
-                    "name": "formData",
-                    "code": 12
                 }
             ]
             

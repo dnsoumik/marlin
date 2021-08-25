@@ -40,16 +40,10 @@ class App(tornado.web.Application, MongoMixin):
             handlers=[
                 # (r'/', IndexHandler),
                 # (r'/web/async', AsyncHttpHandler),
-                # (r'/gen', GenHttpHandler),
-                # (r'/sync', SyncHttpHandler),
-                # (r'/sleep', SleepHandler),
                 (r'/api/country', CountryHandler),
                 (r'/api/resource/profile', ProfileHandler),
                 (r'/api/auth/sign_in', SignInHandler),
                 (r'/api/auth/sign_up', SignUpHandler),
-                # (r'/web/api/authorization/sign_out', SignOutHandler),
-                # (r'/web/api/forms', FormsHandler),
-                # (r'/web/api/forms_data', FormsDataHandler),
             ],
             **settings,
             default_handler_class=IndexHandler
