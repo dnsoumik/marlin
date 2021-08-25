@@ -1,0 +1,83 @@
+{
+    "name": "MTIME",
+    "server": "DEV",
+    "version": "2.000.000",
+    "projectCode": 2120,
+    "url": "https://ether.xlayer.in",
+    "password": null,
+    "uploads": "./../../uploads/",
+    "uploadsPath": "/uploads/",
+    "tmpUploadsPath": "tmp/",
+    "timeOffsetIST": 19800,
+    "instance": [
+        {
+            "api": "web",
+            "host": "127.0.0.1",
+            "port": 3122
+        }
+    ],
+    "database": [
+        {
+            "name": "MongoDB",
+            "code": 0,
+            "key": "marlin",
+            "host": "127.0.0.1",
+            "port": 27017,
+            "table": [
+                {
+                    "name": "account",
+                    "code": 0
+                },
+                {
+                    "name": "application",
+                    "code": 1
+                },
+                {
+                    "name": "profile",
+                    "code": 2
+                },
+                {
+                    "name": "oneTimePassword",
+                    "code": 3
+                },
+                {
+                    "name": "service",
+                    "code": 4
+                },
+                {
+                    "name": "entity",
+                    "code": 5
+                },
+                {
+                    "name": "phoneCountry",
+                    "code": 6
+                },
+                {
+                    "name": "allIndiaPincode",
+                    "code": 7
+                },
+                {
+                    "name":"state",
+                    "code":8
+                },
+                {
+                    "name": "countries",
+                    "code": 9
+                },
+                {
+                    "name": "signedSession",
+                    "code": 10
+                },
+                {
+                    "name": "form",
+                    "code": 11
+                },
+                {
+                    "name": "formData",
+                    "code": 12
+                }
+            ]
+            
+        }
+    ]
+}
